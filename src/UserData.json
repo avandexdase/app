@@ -1,0 +1,18 @@
+
+    [
+        {
+            "UserName": "tosif",
+            "UserPsw" : "tosif123",
+            "Role" : "Admin"
+        },
+        {
+            "UserName": "tosifAttar",
+            "UserPsw" : "tosif123",
+            "Role" : "User"
+        },
+        {
+            "UserName": "a",
+            "UserPsw" : "a",
+            "Role" : "User"
+        }
+    ]

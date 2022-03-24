@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  display: flex;
+  background-color: black;
+  color: white;
+  list-style: none;
+  height: 40px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.list {
+  margin: 0px 10px;
+}
+
+.productBox {
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #e9e5f8;
+  padding: 0px 5px 5px;
+}
+
+.productCard {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 5px;
+  column-gap: 5px;
+  margin: 0px 10px;
+}
+
+.signOutBtn {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.m15 {
+  margin-left: 15px;
+}
+
+.btn {
+  border-radius: 5px;
+  background: #9bb1e7;
+  border: none;
+  padding: 5px 10px;
+  margin: 0px 5px;
+}
+
+.newProduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.singleItem {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+}
